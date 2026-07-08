@@ -6,7 +6,7 @@ import pytz
 import requests
 from bs4 import BeautifulSoup
 import paho.mqtt.client as mqtt
-from config import DATABASE_PATH, TRUSTED_CLIENTS_FILE, MASTER_PUBLIC_KEY_HEX, SUBS_COOLDOWN
+from config import TRUSTED_CLIENTS_FILE, MASTER_PUBLIC_KEY_HEX, SUBS_COOLDOWN
 from cryptography.hazmat.primitives.asymmetric import ed25519
 from cryptography.exceptions import InvalidSignature
 from fastapi import FastAPI, HTTPException, status, Body, Header

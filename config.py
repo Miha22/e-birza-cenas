@@ -5,7 +5,6 @@ if os.getenv("PANDA_STACK_PROD"):
     BASE_DIR = Path("/data")
 else:
     BASE_DIR = Path(__file__).resolve().parent
-#DATABASE_PATH = BASE_DIR / "database.db"
 TRUSTED_CLIENTS_FILE = BASE_DIR / "trusted_clients.txt"
 SUBS_COOLDOWN = 300
 
