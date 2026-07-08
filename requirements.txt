@@ -3,3 +3,5 @@ uvicorn
 cryptography
 requests
 pytz
+beautifulsoup4
+paho-mqtt
